@@ -34,3 +34,12 @@ def start_session():
 
         else:
             print("Invalid choice!")
+            
+def save_session(task, minutes, distractions):
+    date = datetime.now().strftime("%Y-%m-%d")
+
+    with open("data.txt", "a") as file:
+        file.write(f"{date},{task},{minutes},{distractions}\n")
+
+    print("Session saved successfully ✅")
+
