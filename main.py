@@ -42,4 +42,20 @@ def save_session(task, minutes, distractions):
         file.write(f"{date},{task},{minutes},{distractions}\n")
 
     print("Session saved successfully ✅")
+def view_summary():
+    try:
+        with open("data.txt", "r") as file:
+            lines = file.readlines()
+
+            if not lines:
+                print("No data available.")
+                return
+
+            print("\n📅 Study History:\n")
+            for line in lines:
+                date, task, minutes, distractions = line.strip().split(",")
+                print(f"{date} | {task} | {minutes} mins | {distractions} distractions")
+
+    except FileNotFoundError:
+        print("No study sessions found yet.")
 
