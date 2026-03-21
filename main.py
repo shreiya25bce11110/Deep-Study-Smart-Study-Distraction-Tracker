@@ -58,4 +58,25 @@ def view_summary():
 
     except FileNotFoundError:
         print("No study sessions found yet.")
+def main():
+    while True:
+        print("\n==== FocusFlow ====")
+        print("1. Start Study Session")
+        print("2. View Summary")
+        print("3. Exit")
+
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            start_session()
+        elif choice == "2":
+            view_summary()
+        elif choice == "3":
+            print("Goodbye! Stay productive 🚀")
+            break
+        else:
+            print("Invalid choice!")
+
+if __name__ == "__main__":
+    main()
 
