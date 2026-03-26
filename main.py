@@ -1,5 +1,12 @@
 import time
+import random
 from datetime import datetime
+from colorama import Fore, Style, init
+
+# to start or initialize colorama
+init(autoreset=True)
+
+
 
 def start_session():
     task = input("Please input the name of the task: ")
