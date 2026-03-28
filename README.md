@@ -72,6 +72,7 @@ FocusFlow provides a structured way to:
 - ###2️⃣ Install Dependencies
 <bash>
 pip install colorama
+
 - ###3️⃣ Run the Application
 <bash>
 python main.py
