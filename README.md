@@ -68,8 +68,6 @@ FocusFlow provides a structured way to:
 ---
 
 ## ⚙️ Installation & Setup
-### 1️⃣ Clone the Repository
-```bash
 
 ###2️⃣ Install Dependencies
 <bash>
