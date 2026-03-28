@@ -61,17 +61,17 @@ FocusFlow provides a structured way to:
 ---
 
 ##  Project Structure
-│── main.py # Main application logic
-│── data.txt # Stores study session data
-│── README.md # Project documentation
+- │── main.py # Main application logic
+- │── data.txt # Stores study session data
+- │── README.md # Project documentation
 
 ---
 
 ## ⚙️ Installation & Setup
 
-###2️⃣ Install Dependencies
+- ###2️⃣ Install Dependencies
 <bash>
 pip install colorama
-###3️⃣ Run the Application
+- ###3️⃣ Run the Application
 <bash>
 python main.py
