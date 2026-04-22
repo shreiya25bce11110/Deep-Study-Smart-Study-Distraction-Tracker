@@ -1,78 +1,102 @@
-#  FocusFlow – Smart Study & Distraction Tracker
+# 🚀 FocusFlow – Smart Study & AI Productivity Tracker
 
-FocusFlow is a simple yet powerful productivity tool designed to help students improve their focus, track study sessions, and become more aware of distractions.
-
----
-
-##  Problem Statement
-
-In today’s digital world, students are constantly surrounded by distractions such as social media, notifications, and multitasking. This makes it difficult to track actual productive study time, leading to poor time management and reduced efficiency.
+FocusFlow is an intelligent productivity tool that helps students track study sessions, monitor distractions, and analyze their productivity using **Machine Learning**.
 
 ---
 
-##  Solution
+## 🧠 Problem Statement
 
-FocusFlow provides a structured way to:
-- Track study sessions in real-time
-- Monitor distractions during study
-- Analyze productivity through session summaries
-- Improve focus using the Pomodoro technique
+In today’s digital environment, students face constant distractions from phones, notifications, and multitasking. This makes it difficult to measure real productivity and improve focus effectively.
 
 ---
 
-##  Key Features
+## 💡 Solution
 
-###  Study Session Timer
-- Start and stop study sessions
-- Tracks total time spent studying
+FocusFlow provides a smart system to:
 
-###  Distraction Tracker
-- Log distractions with a single input
-- Displays total distractions per session
-
-###  Pomodoro Mode
-- 25-minute focused study session
-- 5-minute break for recovery
-- Encourages disciplined study habits
-
-###  Motivational Quotes
-- Displays random motivational messages
-- Helps maintain focus and morale
-
-###  Colored Terminal Interface
-- Enhanced user experience using colored outputs
-- Improves readability and interaction
-
-###  Study History & Analytics
-- Stores session data in a file
-- Displays all past sessions
-- Calculates total study time
+- Track study sessions in real time  
+- Record distractions during study  
+- Analyze productivity using Machine Learning  
+- Improve focus with structured techniques like Pomodoro  
 
 ---
 
-##  Tech Stack
+## ✨ Key Features
 
-| Technology | Purpose |
-|----------|--------|
-| Python | Core programming |
-| Colorama | Terminal color styling |
-| File Handling | Data storage |
+### ⏱️ Study Session Tracker
+- Start and end study sessions  
+- Automatically calculates time spent  
 
 ---
 
-##  Project Structure
-- │── main.py # Main application logic
-- │── data.txt # Stores study session data
-- │── README.md # Project documentation
+### ⚠️ Distraction Logger
+- Log distractions instantly  
+- Keeps count for each session  
 
 ---
 
-## ⚙️ Installation & Setup
+### 🍅 Pomodoro Mode
+- 25-minute focus session  
+- 5-minute break  
+- Helps build consistent study habits  
 
-- ###2️⃣ Install Dependencies
-<bash>
-pip install colorama
+---
 
-- ###3️⃣ Run the Application
-<bash>
-python main.py
+### 💡 Motivational Quotes
+- Displays random motivational messages  
+- Keeps you engaged and focused  
+
+---
+
+### 🎨 Colored Terminal UI
+- Clean and interactive terminal output  
+- Better readability using colors  
+
+---
+
+### 📊 Study History & Analytics
+- Stores all sessions in `data.txt`  
+- Displays full study history  
+- Calculates total study time  
+
+---
+
+## 🤖 Machine Learning Integration
+
+FocusFlow uses ML to analyze your study behavior:
+
+### 🔹 Productivity Score (Regression)
+- Uses **Linear Regression**  
+- Predicts productivity based on:
+  - Study time  
+  - Number of distractions  
+
+---
+
+### 🔹 Productivity Classification
+- Uses **Logistic Regression**  
+- Classifies sessions into:
+  - **High Productivity 🚀**
+  - **Low Productivity ⚠️**
+
+---
+
+### 🧠 Smart Behavior
+- Model trains on your past sessions  
+- Improves predictions as more data is added  
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology      | Purpose                  |
+|----------------|--------------------------|
+| Python         | Core programming         |
+| Colorama       | Terminal UI styling      |
+| Pandas         | Data handling            |
+| Scikit-learn   | Machine Learning models  |
+| File Handling  | Data storage             |
+
+---
+
+## 📁 Project Structure
